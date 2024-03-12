@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="CRM Application regression Automation Test Suite">
 
-<!--    <listeners>-->
-<!--        <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />-->
-<!--    </listeners>-->
+    <listeners>
+        <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+    </listeners>
 
 
     <test name="CRM App Test Cases">

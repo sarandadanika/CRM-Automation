@@ -50,6 +50,8 @@ public class WebEventListener extends AbstractWebDriverEventListener {
         System.out.println("Found Element By : " + by.toString());
     }
 
+
+
     @Override
     public void onException(Throwable error, WebDriver driver) {
         System.out.println("Exception occured: " + error);

@@ -63,7 +63,6 @@ public class TestBase {
 //        eventListener = new WebEventListener();
 //        e_driver.register(eventListener);
 //        driver = e_driver;
-
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         //synchronization means sync between selenium script and web application speed.
